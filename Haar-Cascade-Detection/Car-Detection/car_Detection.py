@@ -1,6 +1,6 @@
 import cv2
 
-vid = cv2.VideoCapture('car1.mp4')
+vid = cv2.VideoCapture('car.mp4')
 car_cascade = cv2.CascadeClassifier('car.xml')
 while 1:
     _, frame = vid.read()
