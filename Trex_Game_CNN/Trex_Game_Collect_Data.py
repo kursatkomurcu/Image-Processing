@@ -1,8 +1,8 @@
-#Oyundan veri toplama
-import keyboard #klavyeden komut alabilmesi için ekledik
-import uuid #oyundan ekran görüntüsü alabilmesi için ekledik
+#Data collection from the game
+import keyboard
+import uuid #We added this library to take screenshots from the game
 from PIL import Image
-from mss import mss #ekrandan ilgili pikselleri alıp frame haline getirir
+from mss import mss #This library takes the relevant pixels from the screen and frames them
 import time
 """
 http://www.trex-game.skipser.com/
